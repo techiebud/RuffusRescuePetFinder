@@ -1,181 +1,231 @@
-<html><head>
-<title>Ruffus Rescue</title>
-<style>
- img#amazon-smile-log {
-    float: left;
-	padding-right: 10px;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-div#div-amazon-smile {
-    text-align: left;
-}
-
-img#web-dog-1 {
-    float: left;
-    width: 200px;
-    padding-left: 300px;
-}
-
-img#web-dog-2 {
-    float: right;
-    width: 200px;
-    padding-right: 300px;
-   
-}
-
-div#main-header {
-    text-align: center;
-    font-size: 20px;
-}
-</style>
-	
-<script  type="text/javascript"
-    src="http://code.jquery.com/jquery-1.7.2.min.js">
-</script>
-
-<script  type="text/javascript"
-    src="http://www.ruffusrescue.org/jquery.marquee.js">
-</script>
-
-
+<head>
+  <meta charset="UTF-8">
+  <title>Ruffus Rescue</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/prefixfree.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body bgcolor="FFFFFF">
+
+<body>
+
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#featured"><h1>Ruffus Rescue</span></h1></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#featured">Home</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#adoptions">Adoptions</a></li>
+          <li><a href="#foster">Foster</a></li>
+          <li><a href="#testimonials">Donate</a></li>
+          <li><a href="#testimonials">Application</a></li>
+        
+          
+        </ul>        
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+
+  <div class="carousel fade" data-ride="carousel" id="featured">
+
+    <ol class="carousel-indicators">
+    </ol>
+
+    <div class="carousel-inner fullheight">
+      <div class="item"><img src="images/webdog1.jpg" alt="Lifestyle Photo"></div>
+      <div class="item"><img src="images/webdog2.jpg" alt="Mission"></div>
+           
+    </div><!-- carousel-inner -->
+
+    <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div><!-- featured carousel -->
+</header>
+
+<div class="main">
+  <div class="page" id="mission">
+    <div class="content container">
+      <h2>Our Mission</h2>      
+        <div class="row">
+              <p class="">Ruffus Rescue is a non-profit, 501(c)(3) organization established to help reduce the needless euthanasia of adoptable dogs
+                in north Georgia. Most of our dogs come from rural animal control shelters. They receive vaccinations, spay/neuter, heartworm/parasite
+                testing and treatment, microchip, and other veterinary services, as needed, and we care for the dogs as our own until loving,
+                permanent homes can be found. Ruffus Rescue receives no government funding and we rely solely on your financial and volunteer
+                support.</p>
+                
+              
+             
+            </div>
+            <!-- row -->
+    </div><!-- content container -->
+  </div><!-- mission page -->
+
+  <div class="page" id="adoptions">
+    <div class="content container">
+      <h2>Adoptions</h2>
+      <div class="row">
+   
+          <p class="col-md-4">If you are interested in any of our dogs, you can meet them at our adoption site or contact us directly.                <a
+                to meet them at another time.  You can also complete an on-line or printable application
+                  (see below). Our standard adoption fee is $225. This helps us with veterinary care and other operational costs, not just
+                  for the individual dog you may be adopting, but for all our rescued dogs.</p>
+          
+          <p class="col-md-4">Adoption Site<br/>Pet Supplies &quot;Plus&quot<br/>2329 Cheshire Bridge Rd<br/>
+          Atlanta, GA  30329<br /><a href='https://goo.gl/maps/JHQHq' target="_blank"><i class="fa fa-map"></i>&nbsp;Map</a>
+          
+          <p class="col-md-4">Contact Us<br /><i class="fa fa-mobile fa-2x"></i>&nbsp;404-725-1987</br><i class="fa fa-envelope fa-2x"></i>&nbsp;<a href="mailto:harriett.patterson@att.net?subject=Adoption Information">harriett.patterson@att.net</a>   </p>
+
+     
+      </div><!-- row -->   
+    </div><!-- content container -->
+  </div><!-- adoptions page -->
+  
+  <div class="page" id="foster">
+    <div class="content container">
+      <h2>Foster</h2>      
+        <div class="row">
+          
+        
+          
+              <p class="col-md-8">Foster homes are desperately needed.&nbsp; Please contact us if you can provide a temporary, loving home for one of our
+              wonderful dogs so that we can rescue more dogs from shelters. We provide a crate and food and ask that you bring your foster
+              dog to our adoption site each weekend until a permanent home can be found (or as long as you can).</p>
+                
+                 <div class="col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-1 col-md-offset-2 col-lg-4 col-lg-offset-0">
+              <img  src="images/dogbeg.gif"  alt="Please Foster">
+                </div><!-- photo -->
+             
+            </div>
+            <!-- row -->
+    </div><!-- content container -->
+  </div><!-- foster page -->
+  
+
+  <div class="page" id="staff">
+    <div class="container-fluid">
+      <h2 id="ourstaff">Our Staff</h2>
+      <div class="row">
+
+        <div class="doctor col-lg-4">
+          <div class="row">
+            <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+              <img class="img-circle" src="images/doctor-winthrop.jpg" alt="Photo of Dr Sanders">
+            </div><!-- photo -->
+            <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+              <h3>Dr. Winthrop</h3>
+              <p>Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic, performing free spay and neuter surgeries for the shelter.</p>
+            </div><!-- info -->
+          </div> <!-- inner row -->
+        </div> <!-- doctor -->
+
+        <div class="doctor col-lg-4">
+          <div class="row">
+            <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+              <img class="img-circle" src="images/doctor-chase.jpg"  alt="Photo of Dr Sanders">
+            </div><!-- photo -->
+            <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+              <h3>Dr. Chase</h3>
+              <p>Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.</p>
+            </div><!-- info -->
+          </div> <!-- inner row -->
+        </div> <!-- doctor -->
+
+        <div class="doctor col-lg-4">
+          <div class="row">
+            <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+              <img class="img-circle" src="images/doctor-sanders.jpg" alt="Photo of Dr Sanders">
+            </div><!-- photo -->
+            <div class="info col-xs-8 col-xs-offset-2 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+              <h3>Dr Sanders</h3>
+             <p>Leroy walked into Dr. Sanders front door when he was moving into a new house. After searching for weeks for Leroy's guardians, he decided to make Leroy a part of his pet family, and now has three cats.</p>
+            </div><!-- info -->
+          </div> <!-- inner row -->
+        </div> <!-- doctor -->
 
 
+      </div><!-- outer row -->
+    </div><!-- container -->
+  </div><!-- staff page -->
 
-<div id="main-header" >
-<img id="web-dog-1" src="http://www.ruffusrescue.org/images/webdog1.jpg" />	
-<img id="img-pet-finder1" src="http://www.petfinder.com/gifs/org.gif">	
-<img id="web-dog-2" src="http://www.ruffusrescue.org/images/webdog2.jpg" />	
-<h1 id="h1-ruffus-rescue">Ruffus Rescue</font>
+  <div class="page" id="testimonials">
+    <div class="container-fluid">
+      <h2>Testimonials</h2>
+      <div class="row">
+        <blockquote class="col-md-6 col-lg-3" id="janeh">
+          <div class="quote">
+            <span class="intro">During the summer, our rabbit, Tonto, began to have severe redness</span>
+            <span class="more"> and itching on his belly and feet. Through diagnostic testing, we learned that Tonto is severely allergic to over a dozens kinds of grass pollens. We've now been doing allergy injections for several months, and his itching and redness have nearly gone away. I'm very thankful to the veterinarians and staff at Wisdom for the excellent care Tonto received, and for nipping his allergies in the bud, so to speak.</span>
+            <span class="customer">Jane H.</span>
+          </div>
+        </blockquote>
 
-</div>
-<!-- <img src="http://www.ruffusrescue.org/images/logo3.gif" width="119" height="102" align="middle"></h1>  
-<script>
-    $(document).ready(function () { 
-      
+        <blockquote class="col-md-6 col-lg-3" id="mcphersons">
+          <div class="quote">
+            <span class="intro">When Samantha, our Siamese cat, began sleeping all the time</span>
+            <span class="more">and urinating excessively, we brought her to see the specialists at Wisdom. After running a blood test, Dr. Winthrop confirmed what we all feared - Samantha was showing signs of diabetes. The doctor put us on a daily routine to provide Samantha insulin injections, and showed us how to administer the shots. We weren't sure we could do it, but the gang at Wisdom was very supportive and encouraging. Now, two years later, Samantha is still free from any complications of diabetes, and her blood sugar regularly tests normal. Thank you, Wisdom Pet Medicine!</span>
+            <span class="customer">The McPhersons</span>
+          </div>
+        </blockquote>
 
+        <blockquote class="col-md-6 col-lg-3" id="johnb">
+          <div class="quote">
+            <span class="intro">The staff at Wisdom worked tirelessly to determine why our three-year old</span>
+            <span class="more">Golden Retriever, Roxie, started going into sudden kidney failure. They stabilized her and provided fluids until her kidneys were again functioning normally, but it was still a mystery as to what caused her health to decline so quickly. The vet noted our address on Roxie's chart, and asked if we lived on one of the orchards in the vicinity, and if Roxie had a habit of eating grapes off the vine. Our answer was "of course – she's a Retriever." That day we learned just how toxic grapes and raisins are to pets, and Roxie is no longer allowed to roam unattended in the orchard.</span>
+            <span class="customer">John B</span>
+          </div>
+        </blockquote>
 
-    }); -->
+        <blockquote class="col-md-6 col-lg-3" id="lorraines">
+          <div class="quote">
+            <span class="intro">Wisdom Pet Medicine is the only clinic around that will even</span>
+            <span class="more">book pet fish for appointments. When our 13-year old Comet goldfish, McAllister, turned from silvery white to an angry red, we called around, urgently trying to find a veterinarian who could help. Wisdom not only got us in the same day, but also was able to diagnose McAllister as having a severe case of septicemia. In order to kill the harmful bacteria in his blood, we had to use a dog antibiotic in his tank every day for a week, and in the end, McAllister was good as new. I still smile upon remembering Dr. Chase pulling out an old vet school textbook to calculate the correct antibiotic dose for a fish!</span>
+            <span class="customer">Lorraine S</span>
+          </div>
+        </blockquote>          
+      </div>
+    </div><!-- container -->
+  </div><!-- testimonials page -->
+</div><!-- main -->
 
-</script>
+<footer>
+  <div class="content container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <p>Call us toll-free at <span class="phone">888-555-1212</span></p>
+        <p>All contents &copy; 2014 <a href="http://lynda.com">Lynda.com</a>. All rights reserved.</p>    
+      </div><!-- col-sm-6 -->
+      <div class="col-sm-6">
+        <nav class="navbar navbar-default" role="navigation">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </nav>        
+      </div><!-- col-sm-6 -->
+    </div><!-- row -->
+  </div><!-- content container -->
+</footer>
 
-<h3><font color="#000000" size="+2">
-
-<marquee behavior="scroll" direction="left" scrollamount="15" loop="0" style="text-align: center; color: green" height="25">WELCOME TO RUFFUS RESCUE!</marquee></center></font></h3>
-
-
-<center>
-<H2><a href=" http://www.petfinder.com/pet-search?shelter_id=GA440&sort=name">OUR ADOPTABLE PET LIST</a></H2>
- 
-<H3>
-See our <a target="_blank" href="http://www.ruffusrescue.org/AdoptionArchives.htm">HAPPY TAILS</a>&nbsp; 
-     adoption photos and  <a href="http://ruffusrescue.blogspot.com" target="_blank">HEARTFELT ADOPTION TESTIMONIALS</a></H3>
-
-<!-- <p><b><font size="4">Visit Our Official Web Site: </font>
-<font size="4">
-<a target="_blank" href="http://www.ruffusrescue.org/">www.ruffusrescue.org</a></font></b></p></center>
-<i><font size="4">Our official web site is currently being upgraded, but most features are available here. If you have any problems viewing our dogs or accessing our on-line application, contact us at 404-725-1987 or harriett.patterson@att.net.   
-</i></font></p>
-<hr> -->
-
-
-<h2>WHO WE ARE</h2>
-
-
-
-
-
-<p align="left"> <font size="4">Ruffus Rescue is a non-profit, 501(c)(3) organization established to help reduce the needless euthanasia of adoptable dogs in north Georgia. Most of our dogs come from rural animal control shelters. They receive vaccinations, spay/neuter, heartworm/parasite testing and treatment, microchip, and other veterinary services, as needed, and we care for the dogs as our own until loving, permanent homes can be found. Ruffus Rescue receives no government funding and we rely solely on your financial and volunteer support.  </font></p>
-
-<p align="left"> <font size="4">If you are interested in any of our dogs, you can meet them at our adoption site or contact us (404-725-1987 or email <a href="mailto:harriett.patterson@att.net?subject=Meet Dogs">harriett.patterson@att.net</a>) to meet them at another time. You can also complete an on-line or printable application (see below).  Our standard adoption fee is $225. This helps us with veterinary care and other operational costs, not just for the individual dog you may be adopting, but for all our rescued dogs. </font></p>
-
-<hr />
-
-<p align="center"><b><font size="4">ADOPTIONS AT
-<br>
-<!-- from 11AM - 4PM<br> --> 
-<a target="_blank" href="http://www.petsuppliesplus.com/ATLANTA8043/">
-PET SUPPLIES &quot;PLUS&quot;</a><br>
-2329 Cheshire Bridge Rd., Atlanta GA 30329<br>
-<!-- Atlanta, Georgia&nbsp; 30324<br> -->
-<br>
-<i>for adoption dates and times<br>
-call: 404-725-1987 or<br>
-email: <a href="mailto:harriett.patterson@att.net?subject=Adoption Dates and Times">harriett.patterson@att.net</a></i><br>
-</font>
-
-<hr>
-<p align="left"> 
-<img border="0" src="http://www.ruffusrescue.org/images/dogbeg.gif" width="160" height="160" align="left"></p>
-<p align="left"> &nbsp;</p>
-<p align="left"> <font size="4">Foster homes are desperately needed.&nbsp; 
-Please contact us if you can provide a temporary, loving home for one of our wonderful dogs so that we can rescue more dogs from shelters. We provide a crate and food and ask that you bring your foster dog to our adoption site each weekend until a permanent home can be found (or as long as you can).  <br><br>
-If you can't foster a homeless pet, please consider making a donation. It's expensive to rescue, shelter and provide veterinary care for the dogs and some come to us with heartworms, orthopedic problem or other conditions that need immediate treatment and others have injuries from animal cruelty or neglect. Your financial support makes it possible for us to give these animals a second chance at a happy life. You can make a donation online by clicking the <i>PayPal Donate</i> button or you can mail it to the address below.&nbsp; 
-</font><br></B></p>
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-<input type="hidden" name="cmd" value="_s-xclick">
-<p align="left">
-		<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" border="0" name="submit" alt="Make donations to Ruffus Rescue with PayPal - it's fast, free and secure!" align="left"></p>
-
-<table width="965"><tr><td><input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-
-"</td><td><font size="4"><i>Thank you for your generosity!</i>
-</font></td></tr></table>
-
-<br><p align="left"> <font size="4"><B><a target="_blank" href="http://www.ruffusrescue.org/"><font size="4">RUFFUS RESCUE</font></a><font size="4"><br>
-P.O. Box 29962<br>
-Atlanta, GA  30359-0962</font></B></p>
-
-
-<div id="div-amazon-smile">
-<hr />
-<a href="http://smile.amazon.com/ref=smi_ge_sr_btnr1_setch&pldnNewSub=1" target="_blank"/><img id="amazon-smile-log" src="http://www.ruffusrescue.org/images/AmazonSmile.png" /> </a>
-<p id="p-amazon-smile">If you shop at Amazon.com, please <a href="http://smile.amazon.com/ref=smi_ge_sr_btnr1_setch&pldnNewSub=1" target="_blank" >click on this link</a>. Then, whenever you make a purchase, the Amazon Smile Foundation will donate 0.5% of that purchase amount to our group. It may not seem like much and it won't cost you anything extra, but it can help us save more animals!</p>
-</br>
-<hr>
-</div>
-
-</form>
-
-
-<h2>ADOPTION APPLICATION</h2>
-<table border="0" width="236" height="56">
-	<tr>
-		<td height="56" width="104">
-		<p align="center"><b><a href="http://www.ruffusrescue.org/OnlineWarning.htm">ONLINE</a></b></td>
-		<td height="56" width="116">
-		<p align="center"><b>
-		<a target="_blank" href="http://www.ruffusrescue.org/Documents/AdoptionApplication.pdf">PRINTABLE</a></b></td>
-	</tr>
-</table>
-<p><i><font size="4">NOTE:  All printable adoption forms are in Portable Document Format (PDF).  If you do not have Adobe Reader, 
-you can download and install it by clicking the "Get Adobe Reader" button below. </font></i></p>
-<p align="center">
-<a target="_blank" href="http://www.adobe.com/products/acrobat/readstep2.html">
-<img border="0" src="http://www.ruffusrescue.org/images/getacro.gif" width="88" height="31"></a></p>
-<h3></h3>
-
-
-<!--Remove this entire sentence including the arrows at the ends, and enter your shelters current news in its place-->
-
-
-<hr>
-
-
-<h4 align="center">
-<a href="mailto:harriett.patterson@att.net?subject=Ruffus Rescue">
-<img border="0" src="http://www.ruffusrescue.org/images/EMAILHUND.gif" width="100" height="134" align="bottom"></a>Contact Harriett Patterson at <a href="mailto:harriett.patterson@att.net?subject=Ruffus Rescue">
-harriett.patterson@att.net</a> with any questions or comments.<br>
-&nbsp;</h4>
-<hr>
-<a href="http://www.petfinder.com/shelterSearch/shelterSearch.cgi?shelterid=GA440">Click here for a list of pets at this shelter</a>
-</p>
-<p><hr>
-</p>
-<br><center><IMG SRC="http://www.petfinder.com/gifs/navigate.gif" border=0 USEMAP="#map1"><MAP NAME="map1"><AREA SHAPE="rect" coords="52,34,120,103" href="http://www.petfinder.org/index.html"><AREA SHAPE="rect" coords="162,33,231,106" href="http://www.petfinder.org/info.html"> <AREA SHAPE="rect" coords="275,29,346,104" href="http://www.petfinder.com//awo/index.cgi?action=state"> <AREA SHAPE="rect" coords="385,30,455,105" href="http://www.petfinder.org/search.html"> </map><font size=2><br clear=all>[<a href="http://www.petfinder.com/index.html">Home</a>]  [<a href="http://www.petfinder.com/info.html">Information</a>]  [<a href="http://www.petfinder.com//awo/index.cgi?action=state">Shelters</a>]  [<a href="http://www.petfinder.com/search.html">Search</a>]  </font></center>
-
-		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
 </body>
 </html>
